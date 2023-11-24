@@ -1,4 +1,4 @@
-package fs
+package cc_utils
 
 import (
 	"os"
