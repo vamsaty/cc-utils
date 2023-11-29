@@ -21,3 +21,17 @@ func ReadFile(fileName string) ([]byte, error) {
 	defer file.Close()
 	return io.ReadAll(file)
 }
+
+func Min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+func Max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
